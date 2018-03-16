@@ -69,7 +69,7 @@ if filetype.lower() == "pdf":
         os.system(burst_command)
         
         files = []
-        for filename in glob.glob('pg*.pdf'):
+        for filename in glob.glob('pg*.jpg'):
                 files.append(filename)
                 files.sort()
 
